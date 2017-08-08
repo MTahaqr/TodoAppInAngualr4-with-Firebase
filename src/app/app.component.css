@@ -1,0 +1,85 @@
+.main{
+    text-align: center;
+    /*border: 1px solid black;*/
+    font-family: sans-serif;
+    /*background-image: url(../../ngPic.png);*/
+    background-repeat: no-repeat;
+    height: 650px;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    
+     
+}
+h1{
+    color: rgb(220,5,49);
+    font-family: fantasy;
+    font-size: 50px;
+    
+}
+li{
+    list-style: none;
+    height: 30px;
+    margin: 2%;
+    color: rgb(220,5,49);
+    border:3px solid lightgray;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+    /*text-decoration: line-through;*/
+}
+.finish{
+    text-decoration: line-through;
+}
+.check{
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.addItem{
+    height: 35px;
+    width: 30%;
+    margin: 10px;    
+    font-size: 20px;
+    text-align: center;
+    border:3px solid rgb(220,5,49);
+    color:dimgray; 
+    font-weight: bold;
+    
+    
+    
+    
+}
+input:focus{
+    border-color: rgb(220,5,49);
+    outline: none;
+   
+}
+button{
+    width: 100px;
+    height: 40px;
+    color: rgb(220,5,49);
+    background-color: lightgray;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border:3px solid rgb(220,5,49);
+    
+}
+span{
+    position: relative;
+    Float: right;
+    cursor: pointer;
+    
+}
+.list{
+    width: 50%;
+    text-align: center;
+    margin-left: 300px;
+    padding: 10px;
+    
+    
+}
