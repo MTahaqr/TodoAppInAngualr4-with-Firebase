@@ -10,7 +10,6 @@ import {AngularFireDatabase,FirebaseListObservable} from 'angularfire2/Database'
 export class AppComponent {
    items:FirebaseListObservable<any[]>;
    newItems: string = "" ;
-   itemSend ;
 
    constructor(public db:AngularFireDatabase){
     this.items = db.list('/Todos');
